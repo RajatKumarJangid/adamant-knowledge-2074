@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .box {
+        height: 1000px;
+        width: 100%;
+        background-color: #f5f6fd;
+      }
+      h3 {
+        color: var(--Text_Black, #000);
+        /* H3 */
+        margin-bottom: 27px;
+        font-family: DM Serif Display;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 48px; /* 120% */
+      }
+      .leave_box {
+        padding: 30px 0% 0% 10%;
+      }
+      input {
+        width: 401px;
+        height: 48px;
+        flex-shrink: 0;
+        border-radius: 5px;
+        border: 1px solid #dadada;
+        background: #fff;
+      }
+      #email {
+        margin-left: 26px;
+      }
+      #text {
+        width: 834px;
+        height: 172px;
+        /* text-emphasis: none; */
+        flex-shrink: 0;
+        margin-top: 20px;
+      }
+      button {
+        border: none;
+        width: 170px;
+        height: 48px;
+        flex-shrink: 0;
+        color: #fff;
+        text-align: center;
+        font-family: DM Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+        border-radius: 5px;
+        background: var(--Primary_1, #434ccc);
+
+        transition: background-color 0.3s ease;
+      }
+      button:hover {
+        background: var(--Primary_2, #ccc365);
+        cursor: pointer;
+      }
+      #text::placeholder {
+        /* color: rebeccapurple; */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <div class="leave_box">
+        <h3>Leave a comment</h3>
+        <input type="name" id="name" placeholder="      Your name" />
+        <input type="email" id="email" placeholder="     Your email" />
+        <br /><br />
+        <input type="text" id="text" placeholder="      Your message" />
+        <br /><br />
+        <button>Submit</button>
+      </div>
+    </div>
+  </body>
+</html>
