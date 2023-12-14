@@ -5,43 +5,117 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>project</title>
-   
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500&family=Nunito:wght@600&family=VT323&display=swap"
         rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
 <style>
-    body{
-    background-color: #e8e9f4;
-}
-.box{
-    width: 70%;
-    /* border: 1px solid; */
-    margin-left: 200px;
-   
-}
-.para{
-    font-family: 'DM Sans', sans-serif;
-    font-size: 17px;
-    color: rgba(0, 0, 0, 0.5);
-    padding: 10px;
-}
+    body {
+        background-color: #f5f6fd;
+        height: auto;
+    }
 
-li{
-    font-family: 'DM Sans', sans-serif;
-    font-size: 17px; 
-    color:  rgba(0, 0, 0, 1);
-    margin: 7px;
-}
-.box1{
-    width: 70%;
-    border: 1px solid;
-    margin-left: 200px;
-    margin-top: 70px
-}
+    .box {
+        width: 834px;
+        /* border: 1px solid; */
+        margin-left: 380px;
+
+    }
+
+    .heading {
+        font-size: 29px;
+    }
+
+    .para {
+        font-family: 'DM Sans', sans-serif;
+        font-size: 17px;
+        color: rgba(0, 0, 0, 0.5);
+        padding: 10px;
+    }
+
+    li {
+        font-family: 'DM Sans', sans-serif;
+        font-size: 17px;
+        color: rgba(0, 0, 0, 1);
+        margin: 7px;
+    }
+
+    .box1 {
+        width: 834px;
+
+        margin-left: 380px;
+        margin-top: 70px;
+
+    }
+
+    button {
+        height: 32px;
+        width: 77px;
+        border-radius: 5px;
+        border-color: #d1d3f3;
+        color: rgba(67, 76, 204, 1);
+        font-family: 'DM Sans', sans-serif, bold;
+        font-size: 17px;
+        background-color: #f5f6fd;
+        margin: 5px;
+        padding: 5px;
+    }
+
+    .box2 {
+        width: 830px;
+        height: 176px;
+        border-radius: 5px;
+        margin-left: 380px;
+        margin-top: 70px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        background-color: #ffffff;
+        display: flex;
+        justify-content: flex-start;
+
+    }
+
+    span {
+        font-family: 'DM Sans', sans-serif, bold;
+        font-size: 18px;
+        color: rgba(0, 0, 0, 0.5);
+        margin-left: 370px;
+    }
+
+    .logo1 {
+        margin-left: 12px;
+    }
+
+    .girl-image {
+        padding: 30px;
+        border-radius: 240px;
+    }
+
+    .para1 {
+        margin-top: 100px;
+    }
+
+    
+
+    .related {
+        font-size: 40px;
+        margin-left: 380px;
+    }
+
+    .box3 {
+        width: 830px;
+        height: 480px;
+        border: 1px solid;
+        margin-left: 380px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
 </style>
+
 <body>
     <div class="box">
         <h2 class="heading">
@@ -64,11 +138,43 @@ li{
             est, homero perpetua referrentur ea nam.
         </p>
     </div>
+    <div class="line"></div>
     <div class="box1">
 
         <button type="button">Porro</button>
         <button type="button">Animal</button>
         <button type="button">Ludus</button>
+        <span>Share on:</span>
+        <img class="logo1" src="Path.png" alt="">
+        <img class="logo1" src="Path (1).png" alt="">
+        <img class="logo1" src="Shape.png" alt="">
+    </div>
+    <div class="box2">
+        <img class="girl-image" src="Bitmap.png" alt="">
+        <h4>Author</h4>
+        <h2>Cayla Brister</h2>
+        <p class="para para1">Dicta omnes ius ut, ei atomorum voluptatum definitionem per. Zril petentium sit at, vel at
+            quis corrumpit. At
+            facilisi contentiones per.</p>
+    </div>
+    <h5 class="related">Related</h5>
+    <div class="box3">
+        <div class="count">
+            <img src="imagw.png" alt="">
+            <h2>Eloquentiam</h2>
+        <h4>Ea cum vide impetus deserunt</h4>
+        <span class="material-symbols-outlined">
+            chevron_right
+            </span>
+        </div>
+        <div class="count">
+            <img src="imagw.png" alt="">
+            <h2>Eloquentiam</h2>
+        <h4>Ea cum vide impetus deserunt</h4>
+        <span class="material-symbols-outlined">
+           chevron_right
+            </span>
+        </div>
     </div>
 </body>
 
