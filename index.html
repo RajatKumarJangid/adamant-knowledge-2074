@@ -83,6 +83,79 @@
       #text::placeholder {
         /* color: rebeccapurple; */
       }
+      /* Rajat fw29_071 footer style */
+
+      footer{
+            max-width: 1440px;
+            max-height: 400px;
+            display: flex;
+            justify-content: center;
+            background-color: rgba(67, 76, 204, 0.0515);
+            
+        }
+
+        .container-rj{
+            max-width: 1170px;
+            flex-grow: 1;
+            display: flex;
+            margin-top: 79px;
+        }
+
+        .logo-s{
+            flex-grow: 1;
+            flex-basis: 33.32%;
+        }
+        .causei{
+            flex-grow: 1;
+            flex-basis: 16.66%;
+        }
+        .aperiri{
+            flex-grow: 1;
+            flex-basis: 16.66%;
+        }
+        .headlines{
+            /* flex-grow: 1; */
+            flex-basis: 33.32%;
+        }
+        .social{
+            display: flex;
+            gap: 13px;
+        }
+        .footer-logo{
+            margin-bottom: 40px;
+        }
+        .aboutus{
+            max-width: 270px;
+            margin-bottom: 32px;
+            color: rgba(0, 0, 0, 0.5);
+        }
+        ul{
+            padding: 0;
+            margin: 0;
+        }
+        li{
+            list-style: none;
+            padding: 0;
+            margin-bottom: 7px;
+        }
+        li > a{
+            text-decoration: none;
+            text-emphasis-style: none;
+            color: rgba(0, 0, 0, 0.5);
+        }
+        .causei-head{
+            margin-bottom: 16px;
+            margin-top: 0;
+        }
+        .aperiri-head{
+            margin-bottom: 16px;
+            margin-top: 0;
+        }
+        .head1-para{
+            max-width: 270px;
+            max-height: 48px;
+        }
+
     </style>
   </head>
   <body>
@@ -104,5 +177,58 @@
         <button>Submit</button>
       </div>
     </div>
+
+
+
+
+    <!-- Rajat Footer part -->
+    <footer>
+      <div class="container-rj">
+          <div class="logo-s">
+              <img class="footer-logo" src="./LOGO.png" alt="footer logo">
+              
+              <div class="aboutus">
+                  Pro eu apeirian suavitate dissentiet, qui dicunt ancillae id, ne mea homero persequeris.
+              </div>
+              <div class="social"></div>
+                  <img src="./fb.png" alt="fb">
+                  <img src="./tw.png" alt="tw">
+                  <img src="./ins.png" alt="ins">
+
+          </div>
+
+          <div class="causei">
+             <h3 class="causei-head" style="font-size: 16px;"> Causei</h3>
+              <ul>
+                  <li><a href="#">Doming</a></li>
+                  <li><a href="#">Dicunt</a></li>
+                  <li><a href="#">Feugait</a></li>
+                  <li><a href="#">Scripta</a></li>
+              </ul>
+          </div>
+          
+          <div class="aperiri">
+              <h3 class="aperiri-head" style="font-size: 16px;"> Aperiri</h3>
+              <ul>
+                  <li><a href="#">Postulant</a></li>
+                  <li><a href="#">Affert</a></li>
+                  <li><a href="#">Audire</a></li>
+                  <li><a href="#">Quaestio</a></li>
+              </ul>
+          </div>
+
+          <div class="headlines">
+              <img src="./head1.png" alt="head1">
+              <p class="head1-para" >Ius delectus instructior eu, eu eum mentitum percipit forensibus</p>
+              <p class="date1-para">July 15, 2019</p>
+              <img src="./head2.png" alt="head2">
+              <p class="head2-para">Altera integre suavitate per an, alienum phaedrum te sea</p>
+              <p class="date2-para">July 10, 2019</p>
+          </div>
+      </div>
+      <hr>
+  </footer>
+
+
   </body>
 </html>
