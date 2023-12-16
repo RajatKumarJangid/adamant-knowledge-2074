@@ -325,7 +325,7 @@
       }
       .social {
         display: flex;
-        gap: 13px;
+        /* column-gap: 13px; */
       }
       .footer-logo {
         margin-bottom: 23px;
@@ -333,6 +333,7 @@
       .aboutus {
         max-width: 270px;
         margin-bottom: 16px;
+      
         color: rgba(0, 0, 0, 0.5);
       }
       ul {
@@ -501,11 +502,13 @@
       }
 
       .trademark-1 {
-        max-width: 1170px;
+        max-width: 100%;
         max-height: 80px;
-        display: flex;
+        /* display: flex; */
+        padding: 30px 135px 30px 135px;
         flex-grow: 1;
-        margin-left: 135px;
+
+        /* margin-left: 135px; */
         justify-content: space-between;
         background-color: rgba(67, 76, 204, 0.0515);
       }
@@ -516,6 +519,7 @@
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
+        margin-top: 30px;
         line-height: 24px; /* 150% */
       }
       .all-rights {
@@ -525,12 +529,13 @@
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
+        margin-top: -25px;
         line-height: 24px; /* 150% */
       }
       .hr-bottom-one {
         opacity: 0.0989;
         background: #000;
-        width: 1440px;
+        width: 100%;
         height: 1px;
         flex-shrink: 0;
       }
@@ -580,56 +585,76 @@
         padding-top: 20px;
       }
 
-
       /* Vaibahv Singh fw25_196 End */
       /* payal start  */
       .p-box {
         width: 834px;
         /* border: 1px solid; */
-        margin-left: 135px;
+        margin-left: 140px;
+      }
 
-    }
-
-    .p-heading {
+      .p-heading {
         font-size: 29px;
-    }
+      
+      }
 
-    .p-para {
-        font-family: 'DM Sans', sans-serif;
+      .p-para {
+        font-family: "DM Sans", sans-serif;
         font-size: 17px;
         color: rgba(0, 0, 0, 0.5);
         padding: 10px;
-    }
+      }
 
-    .p-li {
-        font-family: 'DM Sans', sans-serif;
+      .p-li {
+        font-family: "DM Sans", sans-serif;
         font-size: 17px;
         color: rgba(0, 0, 0, 1);
         margin: 7px;
-    }
+        color: var(--Text_Black, #000);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px; 
+        
+      }
 
-    .p-box1 {
+      .p-box1 {
         width: 834px;
 
         margin-left: 135px;
         margin-top: 70px;
+      }
 
-    }
-
-    .p-btn{
-        height: 32px;
+      .p-btn {
+        /* height: 32px;
         width: 77px;
         border-radius: 5px;
         border-color: #d1d3f3;
         color: rgba(67, 76, 204, 1);
-        font-family: 'DM Sans', sans-serif, bold;
+        font-family: "DM Sans", sans-serif, bold;
         font-size: 17px;
         background-color: #f5f6fd;
         margin: 5px;
-        padding: 5px;
-    }
+        padding: 5px; */
 
-    .p-box2 {
+        color: rgba(67, 76, 204, 1);
+        padding: 5px 15px 3px 14px;
+        background-color: #f5f6fd;
+        border-radius: 5px;
+        font-family: DM Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        border: rgba(67, 76, 204, 32%) solid 1px;
+
+        width: auto;
+        border-radius: 8px;
+      }
+
+      .p-box2 {
         width: 830px;
         height: 176px;
         border-radius: 5px;
@@ -637,80 +662,104 @@
         margin-top: 70px;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         background-color: #ffffff;
-       display: flex;
+        display: flex;
+      }
 
-    }
-
-    .p-span {
-        font-family: 'DM Sans', sans-serif, bold;
+      .p-span {
+        font-family: "DM Sans", sans-serif, bold;
         font-size: 18px;
         color: rgba(0, 0, 0, 0.5);
         margin-left: 370px;
-    }
+      }
 
-    .p-logo1 {
+      .p-logo1 {
         margin-left: 12px;
-    }
+      }
 
-    .girl-image {
+      .girl-image {
         padding: 30px;
         border-radius: 240px;
-    }
+      }
 
-    .p-para1 {
+      .p-para1 {
         margin-top: 100px;
-    }
+      }
 
-    
-
-    .p-related {
+      .p-related {
         font-size: 40px;
         margin-left: 135px;
-    }
+      }
 
-    .p-box3 {
+      .p-box3 {
         width: 830px;
         height: 480px;
-       
+
         margin-left: 135px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 50px;
-    }
-    .p-count{
+      }
+      .p-count {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        
+
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-        
+
         margin-bottom: 20px;
-       
-     }
-     .p-img{
+      }
+      .p-img {
         width: 300px;
         margin-top: 34px;
         margin-left: 42px;
-     }
-    .p-h3{
+      }
+      .p-h3 {
         margin-left: 42px;
-        font-family: 'DM Sans', sans-serif, bold;
-        color:  rgba(0, 0, 0, 0.5);
-    }
-    .p-h2{
+        font-family: "DM Sans", sans-serif, bold;
+        color: rgba(0, 0, 0, 0.5);
+      }
+      .p-h2 {
         margin-left: 42px;
         font-size: 24px;
-        
-    }
-.p-learn{
-    margin-left: 42px;
-    font-size: 16px;
-    font-family: 'DM Sans', sans-serif, bold;
-   
-}
-.p-author{
-    margin-top: 70px;
-}
+      }
+      .p-learn {
+        margin-left: 42px;
+        font-size: 16px;
+        font-family: "DM Sans", sans-serif, bold;
+      }
+      .p-author {
+        margin-top: 30px;
+
+        font-family: DM Sans;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0px;
+        text-align: left;
+        width: 40px;
+        height: 24px;
+        top: 2032px;
+        left: 311px;
+      }
+      .authorfix {
+        display: flex;
+        border-radius: 5px;
+        background: #fff;
+        box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.3);
+        width: 834px;
+        height: 176px;
+        flex-shrink: 0;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        margin-left: 135px;
+      }
+      .womenfixdiv {
+        width: 40px;
+        height: 24px;
+        top: 2032px;
+        left: 311px;
+      }
       /* payal end  */
     </style>
   </head>
@@ -732,10 +781,10 @@
         "
       >
         <h3 style="color: white; flex-basis: 650px">LOGO</h3>
-        <li><a href=""></a>About</li>
-        <li><a href=""></a>Portfoliio</li>
-        <li><a href=""></a>Blog</li>
-        <li><a href=""></a>Contact</li>
+        <li><a href="#" ></a>About</li>
+        <li><a href="#"></a>Portfoliio</li>
+        <li><a href="#"></a>Blog</li>
+        <li><a href="#"></a>Contact</li>
         <button style="height: 48px; width: 170px; border: 1px solid #ffffff4d">
           Sign up
         </button>
@@ -1012,6 +1061,7 @@
               font-size: 16px;
               font-style: normal;
               font-weight: 400;
+              text-align: justify;
               line-height: 24px; /* 150% */
             "
           >
@@ -1046,6 +1096,7 @@
                   font-size: 20px;
                   font-style: normal;
                   font-weight: 400;
+                  text-align: justify;
                   line-height: 32px; /* 160% */
                 "
               >
@@ -1065,6 +1116,7 @@
               font-style: normal;
               font-weight: 400;
               line-height: 24px;
+              text-align: justify;
               /* 150% */
             "
           >
@@ -1106,60 +1158,117 @@
     <!-- muzammil end -->
     <!-- payal start  -->
     <div class="p-box">
-      <h2 class="p-heading">
-          Maluisset gubergren
-      </h2>
-      <p class="p-para">
-          Mea an decore veritus probatus. Nec ea affert verterem. Vix probo semper et, mea simul graeco diceret te.
-          Qui no stet ferri qualisque, ut clita scripserit nec. Ei mei fabellas gubergren, ius nostro senserit
-          adversarium te.
+      <h2 class="p-heading" style="margin-left: 10px;">Maluisset gubergren</h2>
+      <p class="p-para" style="text-align: justify;">
+        Mea an decore veritus probatus. Nec ea affert verterem. Vix probo semper
+        et, mea simul graeco diceret te. Qui no stet ferri qualisque, ut clita
+        scripserit nec. Ei mei fabellas gubergren, ius nostro senserit
+        adversarium te.
       </p>
-      <ul>
-          <li class="p-li">Vix dicam dolore</li>
-          <li class="p-li">Mel erat timeam</li>
-          <li class="p-li">Sit alii tantas </li>
+      <ul >
+        <li class="p-li"> <img src="Oval.svg" alt="" style="margin-right: 10px;">     Vix dicam dolore</li>
+        <li class="p-li"> <img src="Oval.svg" alt="" style="margin-right: 10px;">     Mel erat timeam</li>
+        <li class="p-li"> <img src="Oval.svg" alt="" style="margin-right: 10px;">     Sit alii tantas</li>
       </ul>
-      <p class="p-para">
-          Te aliquam noluisse his. Et vel epicuri detracto indoctum, et fierent pericula vim, veniam epicuri an eum.
-          Ad mutat quaestio erroribus eam, ei mea modus volumus abhorreant. Mea iisque mentitum signiferumque te, sed
-          commune erroribus scripserit ut, vocibus facilis sea an. Fabulas invenire partiendo eu ius. Sale veritus cu
-          est, homero perpetua referrentur ea nam.
+      
+      <p class="p-para" style="text-align: justify;">
+        Te aliquam noluisse his. Et vel epicuri detracto indoctum, et fierent
+        pericula vim, veniam epicuri an eum. Ad mutat quaestio erroribus eam, ei
+        mea modus volumus abhorreant. Mea iisque mentitum signiferumque te, sed
+        commune erroribus scripserit ut, vocibus facilis sea an. Fabulas
+        invenire partiendo eu ius. Sale veritus cu est, homero perpetua
+        referrentur ea nam.
       </p>
-  </div>
- 
-  <div class="p-box1">
+      <hr>
+    </div>
 
-      <button class="p-btn" type="button">Porro</button>
-      <button class="p-btn" type="button">Animal</button>
-      <button class="p-btn" type="button">Ludus</button>
+    <div class="p-box1">
+      <button class="p-btn" type="button" style="height: 32px;">Porro</button>
+      <button class="p-btn" type="button" style="height: 32px;">Animal</button>
+      <button class="p-btn" type="button" style="height: 32px;">Ludus</button>
+
       <span class="p-span">Share on:</span>
-      <img class="p-logo1" src="./fb.png" alt="">
-      <img class="p-logo1" src="./tw.png" alt="">
-      <img class="p-logo1" src="./ins.png" alt="">
-  </div>
-  <div class="p-box2">
-      <img class="girl-image" src="./woman.png" alt="">
-      <h3 class="p-author">Author</h3>
-       <!-- <h2 class="p-author">CaylaBrister</h2>  -->
-      <p class="p-para p-para1">Dicta omnes ius ut, ei atomorum voluptatum definitionem per. Zril petentium sit at, vel at
-          quis corrumpit. At
-          facilisi contentiones per.</p>
-  </div>
-  <h5 class="p-related">Related</h5>
-  <div class="p-box3">
+      <img class="p-logo1" src="./fb.png" alt="" />
+      <img class="p-logo1" src="./tw.png" alt="" />
+      <img class="p-logo1" src="./ins.png" alt="" />
+    </div>
+    <br><br>
+    <!-- <div class="p-box2">
+      <img class="girl-image" src="./woman.png" alt="" />
+      <p class="p-author">Author</p>
+      <h2 class="p-author">Cayla Brister</h2>
+
+      <p class="p-para p-para1">
+        Dicta omnes ius ut, ei atomorum voluptatum definitionem per. Zril
+        petentium sit at, vel at quis corrumpit. At facilisi contentiones per.
+      </p> -->
+      <div class="authorfix">
+        <div>
+          <img
+            src="woman.png"
+            alt=""
+            style="border-radius: 50%; margin-left: 10px"
+          />
+        </div>
+        <div style="margin-left: 20px">
+          <div
+            class="womenfixdiv"
+            style="
+              color: var(--Text_Black, #000);
+              font-family: DM Sans;
+              margin-top: 40px;
+              height: 34px;
+              font-weight: 700;
+            "
+          >
+            Author
+          </div>
+          <div
+            style="
+              color: var(--Text_Black, #000);
+              font-family: DM Sans;
+              font-size: 20px;
+              font-style: normal;
+              font-weight: 400;
+            "
+          >
+            Cayla Brister
+          </div>
+          <p
+            style="
+              color: var(--text-black-50, rgba(0, 0, 0, 0.5));
+              font-family: DM Sans;
+  
+              font-weight: 400;
+              width: 626px;
+              height: 54px;
+              flex-shrink: 0;
+            "
+          >
+            Dicta omnes ius ut, ei atomorum voluptatum definitionem per. Zril
+            petentium sit at, vel at quis corrumpit. At facilisi contentiones per.
+          </p>
+        </div>
+      </div>
+    </div>
+    <br>
+    <h5 class="p-related">Related</h5>
+    <div class="p-box3">
       <div class="p-count">
-          <img class= "p-img"src="imagw.png" alt="">
-          <h3 class="p-h3">Eloquentiam</h3>
-      <h2 class="p-h2">Ea cum vide impetus deserunt</h2>
-     <p class="p-learn">Learn more</p>
+        <img class="p-img" src="imagw.png" alt="" />
+        <h3 class="p-h3">Eloquentiam</h3>
+        <h2 class="p-h2">Ea cum vide impetus deserunt</h2>
+        <p class="p-learn">Learn more</p>
       </div>
       <div class="p-count">
-          <img class="p-img" src="image2.png" alt="">
-          <h3 class="p-h3">Dolorem</h3>
-      <h2 class="p-h2">Inciderint temporibus id mel</h2>
-      <p class="p-learn">Learn more</p>
+        <img class="p-img" src="image2.png" alt="" />
+        <h3 class="p-h3">Dolorem</h3>
+        <h2 class="p-h2">Inciderint temporibus id mel</h2>
+        <p class="p-learn">Learn more</p>
       </div>
-  </div>
+    </div>
+    <br>
+    
     <!-- payal end  -->
 
     <!-- comment part Abhay  -->
@@ -1267,14 +1376,14 @@
         <div class="logo-s">
           <img class="footer-logo" src="./LOGO.png" alt="footer logo" />
 
-          <div class="aboutus">
+          <div class="aboutus" >
             Pro eu apeirian suavitate dissentiet, qui dicunt ancillae id, ne mea
             homero persequeris.
           </div>
           <div class="social"></div>
           <img src="./fb.png" alt="fb" />
-          <img src="./tw.png" alt="tw" />
-          <img src="./ins.png" alt="ins" />
+          <img src="./tw.png" alt="tw" style="margin-left: 10px;"/>
+          <img src="./ins.png" alt="ins" style="margin-left: 10px;" />
         </div>
 
         <div class="causei">
@@ -1323,8 +1432,8 @@
         </div>
       </div>
     </footer>
-    <hr class="hr-bottom-one" />
     <div class="trademark-1">
+      <hr class="hr-bottom-one" />
       <div class="laaqiq">Created by Laaqiq</div>
       <div class="all-rights">© LOGO, 2019. All rights reserved.</div>
     </div>
