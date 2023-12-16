@@ -8,6 +8,12 @@
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
   <style>
+    body {
+      background-color: #f5f6fd;
+      
+      padding: 0;
+      margin: 0;
+    }
     /* muzammil css  start*/
     .greatestdiv {
       /* border: 1px solid; */
@@ -244,13 +250,18 @@
     }
 
     #text {
-      width: 834px;
+      width: 840px;
       height: 172px;
+      border: 1px solid #dadada;
       /* text-emphasis: none; */
       flex-shrink: 0;
+      border-radius: 5px;
       margin-top: 20px;
     }
-
+    #text::placeholder {
+      font-family: inter, sans-serif;
+      padding-top: 20px;
+    }
     button {
       border: none;
       width: 170px;
@@ -274,7 +285,7 @@
       cursor: pointer;
     }
 
-    /* Abhay comment css  */
+    /* Abhay comment css  end */
 
     /* Rajat fw29_071 footer style */
 
@@ -722,8 +733,9 @@
       <input type="name" id="name" placeholder="      Your name" />
       <input type="email" id="email" placeholder="     Your email" />
       <br /><br />
-      <input type="text" id="text" placeholder="      Your message    " />
-      <br /><br />
+      <textarea id="text" placeholder="      Your message"></textarea>
+      <!-- <input type="text" id="text" placeholder="      Your message    " /> -->
+      <br /><br /><br>
       <button>Submit</button>
     </div>
   </div>
